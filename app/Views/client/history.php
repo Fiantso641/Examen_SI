@@ -42,7 +42,7 @@
                         </table>
                     </div>
                 <?php endif; ?>
-                <a href="<?= base_url('index.php/client/dashboard') ?>" class="btn btn-secondary">Retour au tableau de bord</a>
+                <a href="<?= base_url('client/dashboard') ?>" class="btn btn-secondary">Retour au tableau de bord</a>
             </div>
         </div>
     </div>

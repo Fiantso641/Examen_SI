@@ -30,8 +30,14 @@ $routes->group('operator', function($routes) {
     $routes->get('dashboard', 'Operator::dashboard');
     $routes->get('prefixes', 'Operator::prefixes');
     $routes->post('prefixes', 'Operator::prefixes');
+    $routes->get('prefixes/edit/(:num)', 'Operator::prefixes_edit/$1');
+    $routes->post('prefixes/edit/(:num)', 'Operator::prefixes_edit/$1');
     $routes->get('operations', 'Operator::operations');
     $routes->post('operations', 'Operator::operations');
+    $routes->get('operations/edit/(:num)', 'Operator::operations_edit/$1');
+    $routes->post('operations/edit/(:num)', 'Operator::operations_edit/$1');
+    $routes->get('config', 'Operator::config');
+    $routes->post('config', 'Operator::config');
     $routes->get('fees', 'Operator::fees');
     $routes->post('fees', 'Operator::fees');
     $routes->get('fees/edit/(:num)', 'Operator::fees_edit/$1');
