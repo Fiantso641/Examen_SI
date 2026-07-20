@@ -9,40 +9,44 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Custom CSS -->
-    <link href="<?= base_url('index.php/css/style.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('css/style.css') ?>" rel="stylesheet">
+    <style>
+        /* Espace pour la navbar fixe afin d'éviter le chevauchement */
+        body { padding-top: 70px; }
+    </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <!-- Navigation (fixe en haut) -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-            <a class="navbar-brand" href="<?= base_url('index.php/') ?>">Mobile Money</a>
+            <a class="navbar-brand" href="<?= base_url('') ?>">Mobile Money</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('index.php/') ?>">Accueil</a>
+                        <a class="nav-link" href="<?= base_url('') ?>">Accueil</a>
                     </li>
                     <?php if(session()->get('logged_in')): ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url('index.php/client/dashboard') ?>">Tableau de bord</a>
+                            <a class="nav-link" href="<?= base_url('client/dashboard') ?>">Tableau de bord</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url('index.php/client/balance') ?>">Solde</a>
+                            <a class="nav-link" href="<?= base_url('client/balance') ?>">Solde</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url('index.php/client/history') ?>">Historique</a>
+                            <a class="nav-link" href="<?= base_url('client/history') ?>">Historique</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url('index.php/operator/dashboard') ?>">Opérateur</a>
+                            <a class="nav-link" href="<?= base_url('operator/dashboard') ?>">Opérateur</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url('index.php/client/logout') ?>">Déconnexion</a>
+                            <a class="nav-link" href="<?= base_url('client/logout') ?>">Déconnexion</a>
                         </li>
                     <?php else: ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url('index.php/client/login') ?>">Connexion</a>
+                            <a class="nav-link" href="<?= base_url('client/login') ?>">Connexion</a>
                         </li>
                     <?php endif; ?>
                 </ul>

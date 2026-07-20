@@ -18,7 +18,7 @@
         <div class="card mb-3">
             <div class="card-body text-center">
                 <h5 class="card-title">Voir Solde</h5>
-                <a href="<?= base_url('index.php/client/balance') ?>" class="btn btn-info">Consulter</a>
+                <a href="<?= base_url('client/balance') ?>" class="btn btn-info">Consulter</a>
             </div>
         </div>
     </div>
@@ -26,7 +26,7 @@
         <div class="card mb-3">
             <div class="card-body text-center">
                 <h5 class="card-title">Dépôt</h5>
-                <a href="<?= base_url('index.php/client/deposit') ?>" class="btn btn-success">Déposer</a>
+                <a href="<?= base_url('client/deposit') ?>" class="btn btn-success">Déposer</a>
             </div>
         </div>
     </div>
@@ -34,7 +34,7 @@
         <div class="card mb-3">
             <div class="card-body text-center">
                 <h5 class="card-title">Retrait</h5>
-                <a href="<?= base_url('index.php/client/withdraw') ?>" class="btn btn-warning">Retirer</a>
+                <a href="<?= base_url('client/withdraw') ?>" class="btn btn-warning">Retirer</a>
             </div>
         </div>
     </div>
@@ -42,7 +42,7 @@
         <div class="card mb-3">
             <div class="card-body text-center">
                 <h5 class="card-title">Transfert</h5>
-                <a href="<?= base_url('index.php/client/transfer') ?>" class="btn btn-primary">Transférer</a>
+                <a href="<?= base_url('client/transfer') ?>" class="btn btn-primary">Transférer</a>
             </div>
         </div>
     </div>
@@ -87,7 +87,7 @@
                         </table>
                     </div>
                 <?php endif; ?>
-                <a href="<?= base_url('index.php/client/history') ?>" class="btn btn-link">Voir tout l'historique</a>
+                <a href="<?= base_url('client/history') ?>" class="btn btn-link">Voir tout l'historique</a>
             </div>
         </div>
     </div>

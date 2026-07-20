@@ -47,4 +47,45 @@
         </table>
     </div>
 </div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5>Gains par destination</h5>
+            </div>
+            <div class="card-body">
+                <p><strong>Frais internes :</strong> <?= number_format($internal_fees, 2) ?> Ar</p>
+                <p><strong>Frais externes :</strong> <?= number_format($external_fees, 2) ?> Ar</p>
+                <p><strong>Montant envoyé au même opérateur :</strong> <?= number_format($total_internal_amount, 2) ?> Ar</p>
+                <p><strong>Montant envoyé aux autres opérateurs :</strong> <?= number_format($total_external_amount, 2) ?> Ar</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5>Montants envoyés par opérateur</h5>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Opérateur</th>
+                            <th>Montant envoyé</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach($amounts_by_operator as $operator => $amount): ?>
+                            <tr>
+                                <td><?= esc($operator) ?></td>
+                                <td><?= number_format($amount, 2) ?> Ar</td>
+                            </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
 <?= $this->endSection() ?>

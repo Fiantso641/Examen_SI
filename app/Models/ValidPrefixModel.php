@@ -25,15 +25,37 @@ class ValidPrefixModel extends Model
         return $this->where('status', 'active')->findAll();
     }
 
-    public function isValidPrefix($phoneNumber)
+    protected function normalizePhone($phone)
     {
+        return preg_replace('/\D+/', '', trim($phone));
+    }
+
+    public function findPrefixByPhone($phoneNumber)
+    {
+        $phoneNumber = $this->normalizePhone($phoneNumber);
         $prefixes = $this->getAllValidPrefixes();
+        usort($prefixes, function ($a, $b) {
+            return strlen($b['prefix']) - strlen($a['prefix']);
+        });
+
         foreach ($prefixes as $prefix) {
             if (strpos($phoneNumber, $prefix['prefix']) === 0) {
-                return true;
+                return $prefix;
             }
         }
-        return false;
+
+        return null;
+    }
+
+    public function isValidPrefix($phoneNumber)
+    {
+        return $this->findPrefixByPhone($phoneNumber) !== null;
+    }
+
+    public function getOperatorByPhone($phoneNumber)
+    {
+        $prefix = $this->findPrefixByPhone($phoneNumber);
+        return $prefix ? $prefix['operator_name'] : null;
     }
 
     public function createPrefix($data)

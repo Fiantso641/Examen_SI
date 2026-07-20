@@ -9,6 +9,9 @@ CREATE TABLE IF NOT EXISTS operator_config (
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
+INSERT INTO operator_config (config_key, config_value, description) VALUES
+('transfer_external_surcharge_percent', '0.00', 'Pourcentage additionnel pour les transferts vers les autres opérateurs');
+
 CREATE TABLE IF NOT EXISTS valid_prefixes (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     prefix VARCHAR(10) NOT NULL UNIQUE,
@@ -70,8 +73,8 @@ CREATE TABLE IF NOT EXISTS transactions (
 
 
 INSERT INTO valid_prefixes (prefix, operator_name, status) VALUES
-('033', 'Telma', 'active'),
-('037', 'Telma', 'active');
+('033', 'airtel', 'active'),
+('037', 'Orange', 'active');
 
 INSERT INTO operation_types (code, name, description, status) VALUES
 ('DEPOSIT', 'Dépôt', 'Dépôt d''argent sur le compte', 'active'),
@@ -96,13 +99,5 @@ INSERT INTO fee_schedules (operation_type_id, min_amount, max_amount, fee_amount
 (1, 0, 999999999, 0, 0.00);
 
 INSERT INTO clients (phone_number, pin, full_name, balance, status) VALUES
-('03334000001', '1234', 'Fiantso', 500000.00, 'active'),
-('03334000002', '1234', 'Toky', 500000.00, 'active'),
-('03734000003', '1234', 'Test Client', 300000.00, 'active'),
-('03334000004', '1234', 'Client Test 2', 200000.00, 'active');
-
-INSERT INTO transactions (transaction_id, operation_type_id, client_id, recipient_phone, amount, fee, balance_before, balance_after, description, status) VALUES
-('TXN001', 3, 1, '03334000002', 50000.00, 800.00, 500000.00, 449200.00, 'Transfert vers Toky', 'completed'),
-('TXN002', 1, 2, NULL, 100000.00, 0.00, 500000.00, 600000.00, 'Dépôt automatique', 'completed'),
-('TXN003', 2, 3, NULL, 25000.00, 400.00, 300000.00, 274600.00, 'Retrait automatique', 'completed'),
-('TXN004', 3, 1, '03734000003', 10000.00, 400.00, 449200.00, 438800.00, 'Transfert vers Test Client', 'completed');
+('0333537214', '1234', 'Fiantso', 500000.00, 'active'),
+('0370254689', '1234', 'Toky', 500000.00, 'active');
