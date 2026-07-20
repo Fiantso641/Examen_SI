@@ -6,6 +6,7 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('welcome_message');
+        // Rediriger vers la page de login client
+        return redirect()->to('/client/login');
     }
 }

@@ -1,0 +1,179 @@
+DEBUG - 2026-07-20 09:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:25:30 --> Mise à jour barème ID: 1, Données: {"operation_type_id":"3","min_amount":"0","max_amount":"1000","fee_amount":"200","fee_percentage":"0"}
+DEBUG - 2026-07-20 09:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:26:19 --> Mise à jour barème ID: 1, Données: {"operation_type_id":3,"min_amount":0,"max_amount":1000,"fee_amount":300,"fee_percentage":0}
+DEBUG - 2026-07-20 09:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:27:23 --> Mise à jour barème ID: 1, Données: {"operation_type_id":3,"min_amount":0,"max_amount":1000,"fee_amount":400,"fee_percentage":0}
+INFO - 2026-07-20 09:27:23 --> Résultat mise à jour: 1
+DEBUG - 2026-07-20 09:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:28:08 --> Mise à jour barème ID: 1, Données: {"operation_type_id":3,"min_amount":0,"max_amount":1000,"fee_amount":500,"fee_percentage":0}
+INFO - 2026-07-20 09:28:08 --> Résultat mise à jour SQL direct: 1
+DEBUG - 2026-07-20 09:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:44:22 --> Méthode: POST
+INFO - 2026-07-20 09:44:22 --> POST data: {"action":"add","operation_type_id":"3","min_amount":"0","max_amount":"1000","fee_amount":"100","fee_percentage":"0"}
+INFO - 2026-07-20 09:44:22 --> Action: add
+INFO - 2026-07-20 09:44:22 --> Données add: {"operation_type_id":3,"min_amount":0,"max_amount":1000,"fee_amount":100,"fee_percentage":0}
+DEBUG - 2026-07-20 09:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:46:55 --> Méthode: POST
+INFO - 2026-07-20 09:46:55 --> POST data: {"action":"add","operation_type_id":"3","min_amount":"0","max_amount":"1000","fee_amount":"100","fee_percentage":"0"}
+INFO - 2026-07-20 09:46:55 --> Action: add
+INFO - 2026-07-20 09:46:55 --> Données add: {"operation_type_id":3,"min_amount":0,"max_amount":1000,"fee_amount":100,"fee_percentage":0}
+DEBUG - 2026-07-20 09:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:48:42 --> Méthode: POST
+INFO - 2026-07-20 09:48:42 --> POST data: {"action":"add","operation_type_id":"3","min_amount":"0","max_amount":"1000","fee_amount":"100","fee_percentage":"0"}
+INFO - 2026-07-20 09:48:42 --> Action: add
+INFO - 2026-07-20 09:48:42 --> Données add: {"operation_type_id":3,"min_amount":0,"max_amount":1000,"fee_amount":100,"fee_percentage":0}
+DEBUG - 2026-07-20 09:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:50:02 --> Méthode: POST
+INFO - 2026-07-20 09:50:02 --> POST data: {"action":"add","operation_type_id":"1","min_amount":"5","max_amount":"2000","fee_amount":"15000","fee_percentage":"05"}
+INFO - 2026-07-20 09:50:02 --> Action: add
+INFO - 2026-07-20 09:50:02 --> Données add: {"operation_type_id":1,"min_amount":5,"max_amount":2000,"fee_amount":15000,"fee_percentage":5}
+DEBUG - 2026-07-20 09:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:50:02 --> Méthode: GET
+INFO - 2026-07-20 09:50:02 --> POST data: []
+DEBUG - 2026-07-20 09:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:50:21 --> Méthode: POST
+INFO - 2026-07-20 09:50:21 --> POST data: {"action":"add","operation_type_id":"3","min_amount":"0","max_amount":"1000","fee_amount":"150","fee_percentage":"0"}
+INFO - 2026-07-20 09:50:21 --> Action: add
+INFO - 2026-07-20 09:50:21 --> Données add: {"operation_type_id":3,"min_amount":0,"max_amount":1000,"fee_amount":150,"fee_percentage":0}
+DEBUG - 2026-07-20 09:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:52:05 --> Méthode: GET
+INFO - 2026-07-20 09:52:05 --> POST data: []
+DEBUG - 2026-07-20 09:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:52:12 --> Méthode: POST
+INFO - 2026-07-20 09:52:12 --> POST data: {"action":"delete","id":"11"}
+INFO - 2026-07-20 09:52:12 --> Action: delete
+INFO - 2026-07-20 09:52:12 --> ID delete: 11
+DEBUG - 2026-07-20 09:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:52:13 --> Méthode: GET
+INFO - 2026-07-20 09:52:13 --> POST data: []
+DEBUG - 2026-07-20 09:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:52:14 --> Méthode: POST
+INFO - 2026-07-20 09:52:14 --> POST data: {"action":"delete","id":"15"}
+INFO - 2026-07-20 09:52:14 --> Action: delete
+INFO - 2026-07-20 09:52:14 --> ID delete: 15
+DEBUG - 2026-07-20 09:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:52:14 --> Méthode: GET
+INFO - 2026-07-20 09:52:14 --> POST data: []
+DEBUG - 2026-07-20 09:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:52:18 --> Méthode: POST
+INFO - 2026-07-20 09:52:18 --> POST data: {"action":"delete","id":"6"}
+INFO - 2026-07-20 09:52:18 --> Action: delete
+INFO - 2026-07-20 09:52:18 --> ID delete: 6
+DEBUG - 2026-07-20 09:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:52:18 --> Méthode: GET
+INFO - 2026-07-20 09:52:18 --> POST data: []
+DEBUG - 2026-07-20 09:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:52:23 --> Méthode: POST
+INFO - 2026-07-20 09:52:23 --> POST data: {"action":"delete","id":"5"}
+INFO - 2026-07-20 09:52:23 --> Action: delete
+INFO - 2026-07-20 09:52:23 --> ID delete: 5
+DEBUG - 2026-07-20 09:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:52:23 --> Méthode: GET
+INFO - 2026-07-20 09:52:23 --> POST data: []
+DEBUG - 2026-07-20 09:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:52:35 --> Méthode: POST
+INFO - 2026-07-20 09:52:35 --> POST data: {"action":"add","operation_type_id":"3","min_amount":"0","max_amount":"1000","fee_amount":"200","fee_percentage":"0"}
+INFO - 2026-07-20 09:52:35 --> Action: add
+INFO - 2026-07-20 09:52:35 --> Données add: {"operation_type_id":3,"min_amount":0,"max_amount":1000,"fee_amount":200,"fee_percentage":0}
+INFO - 2026-07-20 09:52:35 --> Résultat création: 17
+DEBUG - 2026-07-20 09:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:52:50 --> Méthode: POST
+INFO - 2026-07-20 09:52:50 --> POST data: {"action":"add","operation_type_id":"2","min_amount":"0","max_amount":"12","fee_amount":"015","fee_percentage":"50"}
+INFO - 2026-07-20 09:52:50 --> Action: add
+INFO - 2026-07-20 09:52:50 --> Données add: {"operation_type_id":2,"min_amount":0,"max_amount":12,"fee_amount":15,"fee_percentage":50}
+INFO - 2026-07-20 09:52:50 --> Résultat création: 18
+DEBUG - 2026-07-20 09:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:52:50 --> Méthode: GET
+INFO - 2026-07-20 09:52:50 --> POST data: []
+DEBUG - 2026-07-20 09:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:53:00 --> Méthode: POST
+INFO - 2026-07-20 09:53:00 --> POST data: {"action":"delete","id":"18"}
+INFO - 2026-07-20 09:53:00 --> Action: delete
+INFO - 2026-07-20 09:53:00 --> ID delete: 18
+INFO - 2026-07-20 09:53:00 --> Résultat suppression: true
+DEBUG - 2026-07-20 09:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:53:00 --> Méthode: GET
+INFO - 2026-07-20 09:53:00 --> POST data: []
+DEBUG - 2026-07-20 09:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 09:57:17 --> Méthode: POST
+INFO - 2026-07-20 09:57:17 --> POST data: {"action":"add","operation_type_id":"3","min_amount":"0","max_amount":"1000","fee_amount":"300","fee_percentage":"0"}
+INFO - 2026-07-20 09:57:17 --> Action: add
+INFO - 2026-07-20 09:57:17 --> Données add: {"operation_type_id":3,"min_amount":0,"max_amount":1000,"fee_amount":300,"fee_percentage":0}
+INFO - 2026-07-20 09:57:17 --> Résultat création: 19
+DEBUG - 2026-07-20 09:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 09:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 10:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 10:02:35 --> fees_edit - Méthode: POST
+INFO - 2026-07-20 10:02:35 --> fees_edit - POST data: {"operation_type_id":"3","min_amount":"0","max_amount":"1000","fee_amount":"500","fee_percentage":"0"}
+INFO - 2026-07-20 10:02:35 --> fees_edit - Données update: {"operation_type_id":3,"min_amount":0,"max_amount":1000,"fee_amount":500,"fee_percentage":0}
+INFO - 2026-07-20 10:02:35 --> fees_edit - Résultat update: true
+DEBUG - 2026-07-20 10:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 10:04:10 --> Méthode: POST
+INFO - 2026-07-20 10:04:10 --> POST data: {"action":"delete","id":"19"}
+INFO - 2026-07-20 10:04:10 --> Action: delete
+INFO - 2026-07-20 10:04:10 --> ID delete: 19
+INFO - 2026-07-20 10:04:10 --> Résultat suppression: true
+DEBUG - 2026-07-20 10:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

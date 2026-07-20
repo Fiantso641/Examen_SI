@@ -1,0 +1,78 @@
+// Mixins SCSS pour Mobile Money
+
+// Flexbox centering
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// Flexbox column
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+// Card styling
+@mixin card-style {
+    background: white;
+    border-radius: $border-radius;
+    box-shadow: $shadow;
+    padding: $spacing-lg;
+    margin-bottom: $spacing-lg;
+}
+
+// Button variant
+@mixin button-variant($bg, $color) {
+    background-color: $bg;
+    color: $color;
+    border: none;
+    padding: $spacing-sm $spacing-lg;
+    border-radius: $border-radius;
+    cursor: pointer;
+    transition: $transition-base;
+    
+    &:hover {
+        background-color: darken($bg, 10%);
+        transform: translateY(-2px);
+        box-shadow: $shadow-lg;
+    }
+    
+    &:active {
+        transform: translateY(0);
+    }
+}
+
+// Responsive breakpoint
+@mixin respond-to($breakpoint) {
+    @if $breakpoint == sm {
+        @media (min-width: $breakpoint-sm) { @content; }
+    } @else if $breakpoint == md {
+        @media (min-width: $breakpoint-md) { @content; }
+    } @else if $breakpoint == lg {
+        @media (min-width: $breakpoint-lg) { @content; }
+    } @else if $breakpoint == xl {
+        @media (min-width: $breakpoint-xl) { @content; }
+    }
+}
+
+// Gradient background
+@mixin gradient-bg($start-color, $end-color) {
+    background: linear-gradient(135deg, $start-color 0%, $end-color 100%);
+}
+
+// Text truncate
+@mixin text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+// Clearfix
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
