@@ -8,10 +8,10 @@
                 <h4 class="mb-0">Connexion Client</h4>
             </div>
             <div class="card-body">
-                <form method="post" action="<?= base_url('index.php/client/login') ?>">
+                <form method="post" action="<?= base_url('client/login') ?>">
                     <div class="mb-3">
                         <label for="phone" class="form-label">Numéro de téléphone</label>
-                        <input type="text" class="form-control" id="phone" name="phone" required placeholder="03334000001">
+                        <input type="text" class="form-control" id="phone" name="phone" required placeholder="0333537214" value="0333537214">
                         <small class="text-muted">Préfixes acceptés: 033, 037</small>
                     </div>
                     <div class="mb-3">

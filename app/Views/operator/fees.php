@@ -10,7 +10,7 @@
                 <h5>Ajouter un barème de frais</h5>
             </div>
             <div class="card-body">
-                <form method="post" action="<?= base_url('index.php/operator/fees') ?>">
+                <form method="post" action="<?= base_url('operator/fees') ?>">
                     <input type="hidden" name="action" value="add">
                     <div class="mb-3">
                         <label for="operation_type_id" class="form-label">Type d'opération</label>
@@ -67,8 +67,8 @@
                                 <td><?= number_format($fee['fee_amount'], 2) ?> Ar</td>
                                 <td><?= $fee['fee_percentage'] ?>%</td>
                                 <td>
-                                    <a href="<?= base_url('index.php/operator/fees/edit/' . $fee['id']) ?>" class="btn btn-warning btn-sm me-1">Modifier</a>
-                                    <form method="post" action="<?= base_url('index.php/operator/fees') ?>" class="d-inline">
+                                    <a href="<?= base_url('operator/fees/edit/' . $fee['id']) ?>" class="btn btn-warning btn-sm me-1">Modifier</a>
+                                    <form method="post" action="<?= base_url('operator/fees') ?>" class="d-inline">
                                         <input type="hidden" name="action" value="delete">
                                         <input type="hidden" name="id" value="<?= $fee['id'] ?>">
                                         <button type="submit" class="btn btn-danger btn-sm">Supprimer</button>

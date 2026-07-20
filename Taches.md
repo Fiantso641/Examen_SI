@@ -1,16 +1,11 @@
 # Taches du Projet - Système Mobile Money
 
-**Binôme :**
-- Fiantso
-- Toky
-
----
 
 ## Version 1 (v1) - Système Mobile Money de base  COMPLETED
 
 ### Fiantso 
 - Création du fichier base.sql et les donnees de test 
-- Création des tables : clients, valid_prefixes, operation_types, fee_schedules, transactions 
+- Création des tables  clients, valid_prefixes, operation_types, fee_schedules, transactions 
 - Création du controller Client avec login automatique (numéro de téléphone) 
 - Création du controller Operator pour l'administration 
 - Mise en place des barèmes de frais par tranche (dépôt, retrait, transfert) 
@@ -57,3 +52,38 @@
 
 
 
+# Tâches — Version 2 et amelioration de v1
+
+## Liste des tâches
+
+- **CRUD Préfixes opérateur** ( Fiantso)
+	- Ajouter/Modifier/Supprimer des préfixes opérateur via l'interface.
+	- Fichiers `app/Controllers/Operator.php`, `app/Models/ValidPrefixModel.php`, `app/Views/operator/prefixes.php`.
+	- Critères création, édition et suppression persistent en base; messages flash présents.
+
+- **Surcharge transferts externes** ( Toky)
+	- Ajouter une configuration `transfer_external_surcharge_percent` et appliquer le calcul aux transferts externes.
+	- Fichiers `app/Models/OperatorConfigModel.php`, `app/Controllers/Operator.php`, `app/Controllers/Client.php`.
+	- Critères valeur configurable, appliquée aux frais, visible dans l'UI.
+
+- **Rapports internes/externes** ( Fiantso)
+	- Séparer le reporting des transferts internes vs externes et fournir un résumé par opérateur.
+	- Fichiers `app/Controllers/Operator.php`, `app/Models/TransactionModel.php`.
+	- Critères tableau récapitulatif des montants et frais.
+
+- **Transferts multi-destinataires** ( Toky)
+	- Permettre l'envoi simultané à plusieurs destinataires du même opérateur.
+	- Fichiers `app/Controllers/Client.php`, `app/Models/TransactionModel.php`, `app/Views/client/transfer.php`.
+	- Critères formulaire acceptant plusieurs numéros; transactions créées séparément.
+
+- **Option frais de retrait** ( Fiantso)
+	- Ajouter option `include_withdrawal_fee` pour inclure/exclure le frais de retrait lors d'un transfert.
+	- Fichiers `app/Views/client/transfer.php`, `app/Controllers/Client.php`.
+	- Critères montant total débité correct selon l'option.
+
+- **Corriger boutons et POST (UI)** (Owner Toky)
+	- Vérifier/corriger tous les formulaires où les boutons semblent inactifs (dépôt, retrait, transfert, config opérateur).
+	- Fichiers vues/formulaires, `app/Config/Filters.php`, `app/Views/layout.php`.
+	- Critères POST déclenche l'action, messages flash visibles.
+
+-
