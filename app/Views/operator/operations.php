@@ -10,7 +10,7 @@
                 <h5>Ajouter un type d'opération</h5>
             </div>
             <div class="card-body">
-                <form method="post" action="<?= base_url('index.php/operator/operations') ?>">
+                <form method="post" action="<?= base_url('operator/operations') ?>">
                     <input type="hidden" name="action" value="add">
                     <div class="mb-3">
                         <label for="code" class="form-label">Code</label>
@@ -41,6 +41,8 @@
                             <th>Code</th>
                             <th>Nom</th>
                             <th>Description</th>
+                            <th>Statut</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -49,6 +51,15 @@
                                 <td><?= $operation['code'] ?></td>
                                 <td><?= $operation['name'] ?></td>
                                 <td><?= $operation['description'] ?></td>
+                                <td><?= ucfirst($operation['status']) ?></td>
+                                <td>
+                                    <a href="<?= base_url('operator/operations/edit/' . $operation['id']) ?>" class="btn btn-warning btn-sm me-1">Modifier</a>
+                                    <form method="post" action="<?= base_url('operator/operations') ?>" class="d-inline">
+                                        <input type="hidden" name="action" value="delete">
+                                        <input type="hidden" name="id" value="<?= $operation['id'] ?>">
+                                        <button type="submit" class="btn btn-danger btn-sm">Désactiver</button>
+                                    </form>
+                                </td>
                             </tr>
                         <?php endforeach; ?>
                     </tbody>

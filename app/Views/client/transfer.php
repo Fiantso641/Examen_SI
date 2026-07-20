@@ -8,14 +8,19 @@
                 <h4 class="mb-0">Transfert d'argent</h4>
             </div>
             <div class="card-body">
-                <form method="post" action="<?= base_url('index.php/client/transfer') ?>">
+                <form method="post" action="<?= base_url('client/transfer') ?>">
                     <div class="mb-3">
-                        <label for="recipient_phone" class="form-label">Numéro du destinataire</label>
-                        <input type="text" class="form-control" id="recipient_phone" name="recipient_phone" required placeholder="03334000002">
+                        <label for="recipient_phone" class="form-label">Numéro(s) du destinataire</label>
+                        <textarea class="form-control" id="recipient_phone" name="recipient_phone" required rows="3" placeholder="03334000002, 03334000003"></textarea>
+                        <div class="form-text">Séparez plusieurs numéros par une virgule, un point-virgule ou un saut de ligne. Envoi multiple uniquement si tous les numéros appartiennent au même opérateur.</div>
                     </div>
                     <div class="mb-3">
-                        <label for="amount" class="form-label">Montant (Ar)</label>
+                        <label for="amount" class="form-label">Montant total (Ar)</label>
                         <input type="number" class="form-control" id="amount" name="amount" required min="1" step="0.01">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="include_withdrawal_fee" name="include_withdrawal_fee" value="1">
+                        <label class="form-check-label" for="include_withdrawal_fee">Inclure les frais de retrait dans l'envoi (applicable seulement pour le même opérateur)</label>
                     </div>
                     <div class="alert alert-info">
                         <strong>Barème des frais de transfert:</strong><br>
@@ -26,7 +31,7 @@
                         Plus de 50 000 Ar: 1%
                     </div>
                     <button type="submit" class="btn btn-primary w-100">Effectuer le transfert</button>
-                    <a href="<?= base_url('index.php/client/dashboard') ?>" class="btn btn-link w-100">Annuler</a>
+                    <a href="<?= base_url('client/dashboard') ?>" class="btn btn-link w-100">Annuler</a>
                 </form>
             </div>
         </div>

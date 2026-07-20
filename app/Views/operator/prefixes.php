@@ -10,7 +10,7 @@
                 <h5>Ajouter un préfixe</h5>
             </div>
             <div class="card-body">
-                <form method="post" action="<?= base_url('index.php/operator/prefixes') ?>">
+                <form method="post" action="<?= base_url('operator/prefixes') ?>">
                     <input type="hidden" name="action" value="add">
                     <div class="mb-3">
                         <label for="prefix" class="form-label">Préfixe</label>
@@ -36,6 +36,7 @@
                         <tr>
                             <th>Préfixe</th>
                             <th>Opérateur</th>
+                            <th>Statut</th>
                             <th>Action</th>
                         </tr>
                     </thead>
@@ -44,8 +45,10 @@
                             <tr>
                                 <td><?= $prefix['prefix'] ?></td>
                                 <td><?= $prefix['operator_name'] ?></td>
+                                <td><?= ucfirst($prefix['status']) ?></td>
                                 <td>
-                                    <form method="post" action="<?= base_url('index.php/operator/prefixes') ?>" class="d-inline">
+                                    <a href="<?= base_url('operator/prefixes/edit/' . $prefix['id']) ?>" class="btn btn-warning btn-sm me-1">Modifier</a>
+                                    <form method="post" action="<?= base_url('operator/prefixes') ?>" class="d-inline">
                                         <input type="hidden" name="action" value="delete">
                                         <input type="hidden" name="id" value="<?= $prefix['id'] ?>">
                                         <button type="submit" class="btn btn-danger btn-sm">Supprimer</button>

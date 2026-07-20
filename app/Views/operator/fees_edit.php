@@ -10,7 +10,7 @@
                 <h5>Modifier le barème</h5>
             </div>
             <div class="card-body">
-                <form method="post" action="<?= base_url('index.php/operator/fees/edit/' . $fee_schedule['id']) ?>">
+                <form method="post" action="<?= base_url('operator/fees/edit/' . $fee_schedule['id']) ?>">
                     <div class="mb-3">
                         <label for="operation_type_id" class="form-label">Type d'opération</label>
                         <select class="form-select" id="operation_type_id" name="operation_type_id" required>
@@ -38,7 +38,7 @@
                         <input type="number" class="form-control" id="fee_percentage" name="fee_percentage" required min="0" step="0.01" value="<?= $fee_schedule['fee_percentage'] ?>">
                     </div>
                     <button type="submit" class="btn btn-primary">Mettre à jour</button>
-                    <a href="<?= base_url('index.php/operator/fees') ?>" class="btn btn-secondary">Annuler</a>
+                    <a href="<?= base_url('operator/fees') ?>" class="btn btn-secondary">Annuler</a>
                 </form>
             </div>
         </div>

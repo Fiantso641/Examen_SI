@@ -177,3 +177,1219 @@ INFO - 2026-07-20 10:04:10 --> Action: delete
 INFO - 2026-07-20 10:04:10 --> ID delete: 19
 INFO - 2026-07-20 10:04:10 --> Résultat suppression: true
 DEBUG - 2026-07-20 10:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-20 12:08:07 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:08:23 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:08:23 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:09:34 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:09:35 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:09:35 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:11:32 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:14:41 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:14:41 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:14:41 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:14:41 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:14:41 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:14:42 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:14:42 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:14:42 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:14:42 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:20:23 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:23:25 --> CodeIgniter\Cache\Exceptions\CacheException: Cache unable to write to "/home/toky/Téléchargements/Examen_SI-main/writable/cache/".
+[Method: GET, Route: /]
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 66.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(66): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite()
+ 2 SYSTEMPATH/Cache/CacheFactory.php(67): CodeIgniter\Cache\Handlers\FileHandler->__construct()
+ 3 SYSTEMPATH/Config/Services.php(129): CodeIgniter\Cache\CacheFactory::getHandler()
+ 4 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::cache()
+ 5 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(124): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(454): CodeIgniter\Config\BaseService::get()
+10 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::responsecache()
+11 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(450): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::responsecache()
+14 SYSTEMPATH/CodeIgniter.php(178): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/Config/Services.php(164): CodeIgniter\CodeIgniter->__construct()
+16 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::codeigniter()
+17 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+18 SYSTEMPATH/Config/Services.php(159): CodeIgniter\Config\BaseService::getSharedInstance()
+19 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::codeigniter()
+20 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+21 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+22 SYSTEMPATH/Boot.php(403): service()
+23 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::initializeCodeIgniter()
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-07-20 12:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-20 12:25:33 --> Error connecting to the database: Error: Class "SQLite3" not found in /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:111
+Stack trace:
+#0 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Database/BaseConnection.php(555): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Database/BaseConnection.php(795): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/toky/Téléchargements/Examen_SI-main/app/Models/ValidPrefixModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 /home/toky/Téléchargements/Examen_SI-main/app/Models/ValidPrefixModel.php(36): App\Models\ValidPrefixModel->getAllValidPrefixes()
+#8 /home/toky/Téléchargements/Examen_SI-main/app/Models/ValidPrefixModel.php(52): App\Models\ValidPrefixModel->findPrefixByPhone()
+#9 /home/toky/Téléchargements/Examen_SI-main/app/Controllers/Client.php(38): App\Models\ValidPrefixModel->isValidPrefix()
+#10 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/CodeIgniter.php(951): App\Controllers\Client->login()
+#11 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#12 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#14 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#15 /home/toky/Téléchargements/Examen_SI-main/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#16 {main}
+CRITICAL - 2026-07-20 12:25:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLite3]: Class "SQLite3" not found
+[Method: POST, Route: client/login]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(74): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 6 APPPATH/Models/ValidPrefixModel.php(25): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH/Models/ValidPrefixModel.php(36): App\Models\ValidPrefixModel->getAllValidPrefixes()
+ 8 APPPATH/Models/ValidPrefixModel.php(52): App\Models\ValidPrefixModel->findPrefixByPhone()
+ 9 APPPATH/Controllers/Client.php(38): App\Models\ValidPrefixModel->isValidPrefix()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Client->login()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-07-20 12:27:34 --> Error connecting to the database: Error: Class "SQLite3" not found in /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:111
+Stack trace:
+#0 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Database/BaseConnection.php(555): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Database/BaseConnection.php(795): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/toky/Téléchargements/Examen_SI-main/app/Models/ValidPrefixModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 /home/toky/Téléchargements/Examen_SI-main/app/Models/ValidPrefixModel.php(36): App\Models\ValidPrefixModel->getAllValidPrefixes()
+#8 /home/toky/Téléchargements/Examen_SI-main/app/Models/ValidPrefixModel.php(52): App\Models\ValidPrefixModel->findPrefixByPhone()
+#9 /home/toky/Téléchargements/Examen_SI-main/app/Controllers/Client.php(38): App\Models\ValidPrefixModel->isValidPrefix()
+#10 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/CodeIgniter.php(951): App\Controllers\Client->login()
+#11 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#12 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#14 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#15 /home/toky/Téléchargements/Examen_SI-main/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#16 {main}
+CRITICAL - 2026-07-20 12:27:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLite3]: Class "SQLite3" not found
+[Method: POST, Route: client/login]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(74): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 6 APPPATH/Models/ValidPrefixModel.php(25): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH/Models/ValidPrefixModel.php(36): App\Models\ValidPrefixModel->getAllValidPrefixes()
+ 8 APPPATH/Models/ValidPrefixModel.php(52): App\Models\ValidPrefixModel->findPrefixByPhone()
+ 9 APPPATH/Controllers/Client.php(38): App\Models\ValidPrefixModel->isValidPrefix()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Client->login()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-07-20 12:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-20 12:28:02 --> Error connecting to the database: Error: Class "SQLite3" not found in /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php:111
+Stack trace:
+#0 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Database/BaseConnection.php(555): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Database/SQLite3/Connection.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Database/BaseConnection.php(795): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/toky/Téléchargements/Examen_SI-main/app/Models/ValidPrefixModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 /home/toky/Téléchargements/Examen_SI-main/app/Models/ValidPrefixModel.php(36): App\Models\ValidPrefixModel->getAllValidPrefixes()
+#8 /home/toky/Téléchargements/Examen_SI-main/app/Models/ValidPrefixModel.php(52): App\Models\ValidPrefixModel->findPrefixByPhone()
+#9 /home/toky/Téléchargements/Examen_SI-main/app/Controllers/Client.php(38): App\Models\ValidPrefixModel->isValidPrefix()
+#10 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/CodeIgniter.php(951): App\Controllers\Client->login()
+#11 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#12 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#14 /home/toky/Téléchargements/Examen_SI-main/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#15 /home/toky/Téléchargements/Examen_SI-main/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#16 {main}
+CRITICAL - 2026-07-20 12:28:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLite3]: Class "SQLite3" not found
+[Method: POST, Route: client/login]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(74): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 6 APPPATH/Models/ValidPrefixModel.php(25): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH/Models/ValidPrefixModel.php(36): App\Models\ValidPrefixModel->getAllValidPrefixes()
+ 8 APPPATH/Models/ValidPrefixModel.php(52): App\Models\ValidPrefixModel->findPrefixByPhone()
+ 9 APPPATH/Controllers/Client.php(38): App\Models\ValidPrefixModel->isValidPrefix()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Client->login()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-07-20 12:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 12:51:42 --> Méthode: GET
+INFO - 2026-07-20 12:51:42 --> POST data: []
+DEBUG - 2026-07-20 12:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 12:51:45 --> Méthode: POST
+INFO - 2026-07-20 12:51:45 --> POST data: {"action":"delete","id":"7"}
+INFO - 2026-07-20 12:51:45 --> Action: delete
+INFO - 2026-07-20 12:51:45 --> ID delete: 7
+INFO - 2026-07-20 12:51:45 --> Résultat suppression: true
+DEBUG - 2026-07-20 12:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 12:51:45 --> Méthode: GET
+INFO - 2026-07-20 12:51:45 --> POST data: []
+DEBUG - 2026-07-20 12:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 12:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-20 12:58:51 --> table transactions has no column named updated_at
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 163.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(163): SQLite3->exec()
+ 2 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(899): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(668): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Models/TransactionModel.php(32): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/Client.php(164): App\Models\TransactionModel->createTransaction()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Client->deposit()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:58:51 --> CodeIgniter\Database\Exceptions\DatabaseException: table transactions has no column named updated_at
+[Method: POST, Route: client/deposit]
+in SYSTEMPATH/Database/BaseConnection.php on line 865.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(899): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(668): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Models/TransactionModel.php(32): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/Client.php(164): App\Models\TransactionModel->createTransaction()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Client->deposit()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:58:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: table transactions has no column named updated_at
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 174.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\SQLite3\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(899): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(668): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Models/TransactionModel.php(32): CodeIgniter\Model->insert()
+ 8 APPPATH/Controllers/Client.php(164): App\Models\TransactionModel->createTransaction()
+ 9 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Client->deposit()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-07-20 12:58:51 --> [Caused by] SQLite3Exception: table transactions has no column named updated_at
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 163.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(163): SQLite3->exec()
+ 2 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\SQLite3\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(899): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(668): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Models/TransactionModel.php(32): CodeIgniter\Model->insert()
+ 9 APPPATH/Controllers/Client.php(164): App\Models\TransactionModel->createTransaction()
+10 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Client->deposit()
+11 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-07-20 13:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:08:14 --> operator::config method: POST POST data: {"transfer_external_surcharge_percent":"2.50"}
+DEBUG - 2026-07-20 13:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:08:50 --> operator::config method: POST POST data: {"transfer_external_surcharge_percent":"2.50"}
+DEBUG - 2026-07-20 13:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:11 --> operator::config method: POST POST data: {"transfer_external_surcharge_percent":"2.50"}
+DEBUG - 2026-07-20 13:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: {"transfer_external_surcharge_percent":"2.50"}
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: 1
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:09:50 --> operator::config method: POST POST data: []
+INFO - 2026-07-20 13:09:50 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:09:50 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: {"transfer_external_surcharge_percent":"2.50"}
+INFO - 2026-07-20 13:10:11 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:10:11 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:11 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:11 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:12 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:12 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:10:12 --> operator::config method: POST POST data: []
+WARNING - 2026-07-20 13:10:12 --> operator::config empty value, skipping setConfig
+DEBUG - 2026-07-20 13:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:12:28 --> operator::config method: GET POST data: []
+DEBUG - 2026-07-20 13:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:12:29 --> operator::config method: POST POST data: {"transfer_external_surcharge_percent":"2.5"}
+INFO - 2026-07-20 13:12:29 --> operator::config about to call setConfig
+INFO - 2026-07-20 13:12:29 --> operator::config setConfig result: true
+DEBUG - 2026-07-20 13:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-07-20 13:12:29 --> operator::config method: GET POST data: []
+DEBUG - 2026-07-20 13:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-20 13:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

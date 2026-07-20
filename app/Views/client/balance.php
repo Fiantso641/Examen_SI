@@ -10,7 +10,7 @@
             <div class="card-body text-center">
                 <h2 class="display-4 text-primary"><?= number_format($client['balance'], 2) ?> Ar</h2>
                 <p class="text-muted">Numéro: <?= $client['phone_number'] ?></p>
-                <a href="<?= base_url('index.php/client/dashboard') ?>" class="btn btn-secondary">Retour au tableau de bord</a>
+                <a href="<?= base_url('client/dashboard') ?>" class="btn btn-secondary">Retour au tableau de bord</a>
             </div>
         </div>
     </div>

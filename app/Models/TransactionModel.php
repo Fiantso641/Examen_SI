@@ -23,7 +23,7 @@ class TransactionModel extends Model
         'description',
         'status'
     ];
-    protected $useTimestamps = true;
+    protected $useTimestamps = false;
     protected $createdField = 'created_at';
     protected $updatedField = 'updated_at';
 
@@ -35,6 +35,13 @@ class TransactionModel extends Model
     public function getTransactionsByClient($clientId)
     {
         return $this->where('client_id', $clientId)
+                    ->orderBy('created_at', 'DESC')
+                    ->findAll();
+    }
+
+    public function getTransactionsByOperationType($operationTypeId)
+    {
+        return $this->where('operation_type_id', $operationTypeId)
                     ->orderBy('created_at', 'DESC')
                     ->findAll();
     }
