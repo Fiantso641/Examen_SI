@@ -8,6 +8,7 @@ use App\Models\TransactionModel;
 use App\Models\OperationTypeModel;
 use App\Models\FeeScheduleModel;
 use App\Models\OperatorConfigModel;
+use App\Models\PromotionModel;
 
 class Client extends BaseController
 {
@@ -17,6 +18,7 @@ class Client extends BaseController
     protected $operationTypeModel;
     protected $feeScheduleModel;
     protected $operatorConfigModel;
+    protected $promotionModel;
 
     public function __construct()
     {
@@ -26,6 +28,7 @@ class Client extends BaseController
         $this->operationTypeModel = new OperationTypeModel();
         $this->feeScheduleModel = new FeeScheduleModel();
         $this->operatorConfigModel = new OperatorConfigModel();
+        $this->promotionModel = new PromotionModel();
     }
 
     public function login()
@@ -320,6 +323,16 @@ class Client extends BaseController
                         $fee = ($share * $feeSchedule['fee_percentage']) / 100;
                     } else {
                         $fee = $feeSchedule['fee_amount'];
+                    }
+                }
+
+                // Apply promotion discount if available for recipient operator
+                if ($recipientOperator) {
+                    $promotion = $this->promotionModel->getActivePromotionByOperator($recipientOperator);
+                    if ($promotion && $promotion['discount_percentage'] > 0) {
+                        $discountAmount = ($fee * $promotion['discount_percentage']) / 100;
+                        $fee = $fee - $discountAmount;
+                        if ($fee < 0) $fee = 0;
                     }
                 }
 

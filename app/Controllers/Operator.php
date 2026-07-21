@@ -8,6 +8,7 @@ use App\Models\TransactionModel;
 use App\Models\OperationTypeModel;
 use App\Models\FeeScheduleModel;
 use App\Models\OperatorConfigModel;
+use App\Models\PromotionModel;
 
 class Operator extends BaseController
 {
@@ -17,6 +18,7 @@ class Operator extends BaseController
     protected $operationTypeModel;
     protected $feeScheduleModel;
     protected $operatorConfigModel;
+    protected $promotionModel;
 
     public function __construct()
     {
@@ -26,6 +28,7 @@ class Operator extends BaseController
         $this->operationTypeModel = new OperationTypeModel();
         $this->feeScheduleModel = new FeeScheduleModel();
         $this->operatorConfigModel = new OperatorConfigModel();
+        $this->promotionModel = new PromotionModel();
     }
 
     public function dashboard()
@@ -309,5 +312,58 @@ class Operator extends BaseController
         ];
 
         return view('operator/reports', $data);
+    }
+
+    public function promotions()
+    {
+        if ($this->request->getMethod() === 'post') {
+            $action = $this->request->getPost('action');
+            
+            if ($action === 'add') {
+                $data = [
+                    'operator_name' => $this->request->getPost('operator_name'),
+                    'discount_percentage' => (float)$this->request->getPost('discount_percentage'),
+                    'description' => $this->request->getPost('description'),
+                    'start_date' => $this->request->getPost('start_date') ? $this->request->getPost('start_date') : null,
+                    'end_date' => $this->request->getPost('end_date') ? $this->request->getPost('end_date') : null,
+                    'status' => 'active'
+                ];
+                $this->promotionModel->createPromotion($data);
+                return redirect()->to('operator/promotions')->with('success', 'Promotion ajoutée avec succès');
+            } elseif ($action === 'delete') {
+                $id = $this->request->getPost('id');
+                $this->promotionModel->deletePromotion($id);
+                return redirect()->to('operator/promotions')->with('success', 'Promotion supprimée avec succès');
+            }
+        }
+
+        $data = [
+            'promotions' => $this->promotionModel->getAllPromotions()
+        ];
+
+        return view('operator/promotions', $data);
+    }
+
+    public function promotions_edit($id)
+    {
+        if ($this->request->getMethod() === 'post') {
+            $data = [
+                'operator_name' => $this->request->getPost('operator_name'),
+                'discount_percentage' => (float)$this->request->getPost('discount_percentage'),
+                'description' => $this->request->getPost('description'),
+                'start_date' => $this->request->getPost('start_date') ? $this->request->getPost('start_date') : null,
+                'end_date' => $this->request->getPost('end_date') ? $this->request->getPost('end_date') : null,
+                'status' => $this->request->getPost('status') ?? 'active'
+            ];
+            $this->promotionModel->updatePromotion($id, $data);
+            return redirect()->to('operator/promotions')->with('success', 'Promotion mise à jour avec succès');
+        }
+
+        $promotion = $this->promotionModel->getPromotionById($id);
+        if (!$promotion) {
+            return redirect()->to('operator/promotions')->with('error', 'Promotion introuvable');
+        }
+
+        return view('operator/promotions_edit', ['promotion' => $promotion]);
     }
 }

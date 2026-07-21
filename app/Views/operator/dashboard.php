@@ -66,6 +66,7 @@
                     <a href="<?= base_url('operator/clients') ?>" class="btn btn-outline-primary">Voir les clients</a>
                     <a href="<?= base_url('operator/transactions') ?>" class="btn btn-outline-primary">Voir les transactions</a>
                     <a href="<?= base_url('operator/fees') ?>" class="btn btn-outline-primary">Gérer les barèmes de frais</a>
+                    <a href="<?= base_url('operator/promotions') ?>" class="btn btn-outline-primary">Gérer les promotions</a>
                     <a href="<?= base_url('operator/config') ?>" class="btn btn-outline-primary">Configuration externe</a>
                     <a href="<?= base_url('operator/reports') ?>" class="btn btn-outline-primary">Voir les rapports</a>
                 </div>

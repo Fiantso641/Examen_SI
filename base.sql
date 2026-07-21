@@ -101,3 +101,15 @@ INSERT INTO fee_schedules (operation_type_id, min_amount, max_amount, fee_amount
 INSERT INTO clients (phone_number, pin, full_name, balance, status) VALUES
 ('0333537214', '1234', 'Fiantso', 500000.00, 'active'),
 ('0370254689', '1234', 'Toky', 500000.00, 'active');
+
+CREATE TABLE IF NOT EXISTS promotions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    operator_name VARCHAR(100) NOT NULL,
+    discount_percentage DECIMAL(5,2) NOT NULL,
+    description TEXT,
+    start_date DATETIME,
+    end_date DATETIME,
+    status VARCHAR(20) DEFAULT 'active',
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);

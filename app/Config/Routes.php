@@ -45,4 +45,8 @@ $routes->group('operator', function($routes) {
     $routes->get('clients', 'Operator::clients');
     $routes->get('transactions', 'Operator::transactions');
     $routes->get('reports', 'Operator::reports');
+    $routes->get('promotions', 'Operator::promotions');
+    $routes->post('promotions', 'Operator::promotions');
+    $routes->get('promotions/edit/(:num)', 'Operator::promotions_edit/$1');
+    $routes->post('promotions/edit/(:num)', 'Operator::promotions_edit/$1');
 });

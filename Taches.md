@@ -86,4 +86,6 @@
 	- Fichiers vues/formulaires, `app/Config/Filters.php`, `app/Views/layout.php`.
 	- Critères POST déclenche l'action, messages flash visibles.
 
--
+        ## Alea1 Fiantso
+		-promotion  en porcentzge sur les frais de transfer de name operateur
+		-Creation de table promotion
